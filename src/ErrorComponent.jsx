@@ -6,7 +6,7 @@ const ErrorComponent = () => {
   return (
     <div
       id="error-page"
-      className="flex flex-col justify-center items-center w-full h-1/3 gap-4 text-lg text-nav"
+      className="flex flex-col justify-center items-center w-full h-1/3 gap-4 text-lg bg-white text-black"
     >
       <h1>Oops!</h1>
       <p>Ocurrió un error inesperado.</p>
