@@ -13,7 +13,7 @@ const ErrorComponent = () => {
       Por favor, inténtelo nuevamente.
       </p>
       </div>
-      <Link to="/checkout/form" className="border border-header bg-yellow/70 hover:border-transparent text-header font-semibold py-1 px-4 rounded text-lg">
+      <Link to="/checkout/form" className="border hover:border-header bg-yellow/70 border-transparent text-header font-semibold py-1 px-4 rounded text-lg hover:text-header transition-all">
         Volver a intentar
       </Link>
     </div>
