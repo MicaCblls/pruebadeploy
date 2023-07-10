@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="w-full flex flex-col justify-center items-center bg-grey">
       <Routes>
-        <Route path="/" element={<PlaceholderProducts />} />
-        <Route path="/checkout/success" element={<SuccessComponent />} />
-        <Route path="/checkout/failure" element={<ErrorComponent />} />
+        <Route exact path="/" element={<PlaceholderProducts />} />
+        <Route exact path="/checkout/success" element={<SuccessComponent />} />
+        <Route exact path="/checkout/failure" element={<ErrorComponent />} />
         <Route path="*" component={ErrorComponent} />
       </Routes>
     </div>
