@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" element={<PlaceholderProducts />} />
         <Route exact path="/checkout/success" element={<SuccessComponent />} />
         <Route exact path="/checkout/failure" element={<ErrorComponent />} />
-        <Route path="*" component={ErrorRoute} />
+        <Route path="*" element={<ErrorRoute />} />
       </Routes>
     </div>
   );
