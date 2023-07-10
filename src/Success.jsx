@@ -12,7 +12,7 @@ import {BsFillCartCheckFill}   from "react-icons/bs";
         Su pedido ha sido procesado correctamente.
       </p>
       </div>
-      <Link to="/" className="border border-header bg-yellow/70 hover:border-transparent text-header font-semibold py-1 px-4 rounded text-lg">
+      <Link to="/" className="border hover:border-header bg-yellow/70 border-transparent text-header font-semibold py-1 px-4 rounded text-lg hover:text-header transition-all">
         Volver al Inicio
       </Link>
  
