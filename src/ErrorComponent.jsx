@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouteError } from "react-router-dom";
 
-const ErrorComponent = () => {
+const ErrorRoute = () => {
   const error = useRouteError();
   return (
     <div
@@ -17,4 +17,4 @@ const ErrorComponent = () => {
   );
 };
 
-export default ErrorComponent;
+export default ErrorRoute;

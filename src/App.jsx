@@ -5,6 +5,7 @@ import "./App.css";
 import ErrorComponent from "./Failure";
 import PlaceholderProducts from "./Placeholder";
 import SuccessComponent from "./Success";
+import ErrorRoute from "./ErrorComponent";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route exact path="/" element={<PlaceholderProducts />} />
         <Route exact path="/checkout/success" element={<SuccessComponent />} />
         <Route exact path="/checkout/failure" element={<ErrorComponent />} />
-        <Route path="*" component={ErrorComponent} />
+        <Route path="*" component={ErrorRoute} />
       </Routes>
     </div>
   );
